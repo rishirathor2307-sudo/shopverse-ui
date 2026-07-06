@@ -1,0 +1,955 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("home.page_background.png");
+    background-size: cover;
+    overflow-x: hidden;
+}
+.page-content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: transparent;
+    border: 0.5px solid rgba(255,255,255,0.3);
+    padding: 0 30px;
+    border-radius: 10px;
+    margin-top: 8px;
+    backdrop-filter:blur(10px);
+
+}
+
+.nav-logo{
+      width:40%;
+      height: 40px;
+}
+
+.logo{
+  color: rgb(245, 241, 241);
+  font-size: 30px; 
+  display: flex;
+  align-items: center;
+}
+.logo a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    margin-left:10px ;
+}
+
+.logo p{
+    color: #FF4FA3;
+    margin-left:5px ;
+
+}
+
+
+.border{
+       border:2 px solid transparent
+}
+.border:hover{
+    border:1px solid rgba(255,255,255,0.5);
+}
+
+.bottom-border{
+       border-bottom:2 px solid transparent
+}
+.bottom-border:hover{
+    border-bottom:2px solid #FF4FA3;
+}
+
+
+.home-tag{
+  width: 60px;
+  position: relative;
+  left: 10px;
+}
+
+.home-tag a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.nav-shope{
+  position: relative;
+  left: 10px;
+}
+
+.nav-shope a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.category{
+  position: relative;
+  left: 10px;
+}
+
+.category a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.Detail{
+  position: relative;
+  left: 10px;
+}
+
+.Detail a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.content{
+  position: relative;
+  left: 10px;
+}
+
+.content a{
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.nav-icon{
+     display: flex;
+     justify-content: space-evenly;
+     width:15%;
+     color: white;
+     cursor: pointer;
+}
+
+.hero-section{
+    height: 300px;
+    background-color: transparent;
+}
+
+.hero-section  h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: #E7E7E7;
+    position:relative;
+    left:40px;
+    top:40px;
+}
+
+.hero-section p{
+    color: white;
+    position:relative;
+    left:40px;
+    top:50px;
+    font-weight: 800;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.hero-section button{
+    position:relative;
+    left:40px;
+    top:65px;
+    height: 35px;
+    width: 120px;
+    font-weight: 800;
+    background-color:#FF4FA3;
+    color: white;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,1);
+}
+
+.hero-section button:hover{
+    background-color: rgb(22, 20, 20);
+    color: white;
+
+}
+
+.hero-section .hero-box{
+     height: 275px;
+     width: 400px;
+     background-color: transparent;
+     position: absolute;
+     top:13%;
+     left: 61.62%;
+     border:0.5px solid rgb(237, 234, 222,0.5);
+     backdrop-filter: blur(3px);
+     border-radius:10px;
+}
+
+.hero-section .hero-box p{
+    position: relative;
+    top: 40px;
+    left:20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.hero-section .hero-box img{
+     height: 250px; 
+     width: 450px;
+     position: absolute;
+     top: 30px;
+    
+}
+
+.hero-section .hero-box h3{
+    position: absolute;
+    top: 32%;
+    left: 20px;
+    font-weight: 900;
+    color: rgb(252, 75, 75);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.hero-box button{
+    background-color: transparent;
+    height: 28px;
+    width: 100px;
+    font-size: 12px;
+    font-size: 600;
+    letter-spacing: 0.5px;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    cursor: pointer;
+}
+
+.hero-box .dot_icon i{
+      color:#E7E7E7 ;
+      font-size: 33px;
+     position: absolute;
+     bottom: 5%;
+     left: 20px;
+}
+
+.free_shopping{
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    position: relative;
+    left: 200px;
+    top: 74px;
+    border-radius: 4px;
+    border:0.5px solid rgba(156, 155, 147, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.free_shopping i{
+    color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 20%;
+    left: 6px;
+   
+}
+
+.free_shopping b{
+    color: rgba(255,255,255,1);
+    font-size: 12px;
+    letter-spacing: 0.90px;
+    position: relative;
+    left: 15px;
+}
+
+.free_shopping p{
+    color: white;
+    font-size: 10px;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 0%;
+    left: 24%;
+}
+
+.Secure_payment{
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    position: relative;
+    left: 350px;
+    top: 34px;
+    border-radius: 4px;
+    border:0.5px solid rgba(156, 155, 147, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+
+.Secure_payment i{
+    color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 20%;
+    left: 6px;
+   
+}
+
+.Secure_payment b{
+    color: rgba(255,255,255,1);
+    font-size: 12px;
+    letter-spacing: 0.90px;
+    position: relative;
+    left: 15px;
+}
+
+
+.Secure_payment p{
+    color: white;
+    font-size: 10px;
+    position: relative;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    top: 0%;
+    left: 24%;
+
+}
+
+.Premium_Quality{
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    position: relative;
+    left: 500px;
+    top: -5px;
+    border-radius: 4px;
+    border:0.5px solid rgba(156, 155, 147, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+
+.Premium_Quality i{
+    color: rgba(255,255,255,0.5);
+    position: relative;
+    top: 20%;
+    left: 6px;
+   
+}
+
+.Premium_Quality b{
+    color: rgba(255,255,255,1);
+    font-size: 12px;
+    letter-spacing: 0.90px;
+    position: relative;
+    left: 9px;
+}
+
+
+.Premium_Quality p{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    top: 0%;
+    left: 24%;
+
+}
+
+.categories_section{
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.categories_section .Fashion{
+    height: 130px;
+    width: 270px;
+    background-color: transparent;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    backdrop-filter: blur(3px);
+    border-radius:10px;
+
+}
+
+.Fashion .shopping_icon{
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    left:15px;
+    border-radius: 50%;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    backdrop-filter: blur(3px);
+
+}
+
+.shopping_icon i{
+    color: aliceblue;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+}
+
+.Fashion h3{
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left:70px;
+}
+
+.Fashion p{
+    color: aliceblue;
+    font-size: 13px;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 35px;
+    left:70px;
+    letter-spacing: 0.4px;
+}
+
+.Fashion img{
+    height: 133px;
+    width: 200px;
+    position: absolute;
+    bottom: -6px;
+    left: 105px;
+}
+
+.Fashion a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FF4FA3;
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+}
+
+.categories_section .Electonics{
+    height: 130px;
+    width: 270px;
+    background-color: transparent;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+     backdrop-filter: blur(3px);
+     border-radius:10px;
+}
+
+.Electonics .headphone_icon{
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    left:15px;
+    border-radius: 50%;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    backdrop-filter: blur(3px);
+}
+
+.headphone_icon i{
+    color: aliceblue;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+}
+
+.Electonics h3{
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left:70px;
+}
+
+.Electonics p{
+    color: aliceblue;
+    font-size: 13px;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 35px;
+    left:70px;
+}
+
+.Electonics img{
+    height: 133px;
+    width: 200px;
+    position: absolute;
+    bottom: -6px;
+    left: 105px;
+}
+
+.Electonics a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FF4FA3;
+    position: absolute;
+    bottom: 30px;
+    left: 65px;
+}
+
+.categories_section .Home_decor{
+    height: 130px;
+    width: 270px;
+    background-color: transparent;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+     backdrop-filter: blur(3px);
+     border-radius:10px;
+}
+
+.Home_decor .sofa_icon{
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    left:15px;
+    border-radius: 50%;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    backdrop-filter: blur(3px);
+}
+
+.sofa_icon i{
+    color: aliceblue;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+}
+
+.Home_decor h3{
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left:70px;
+}
+
+.Home_decor p{
+    color: aliceblue;
+    font-size: 13px;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 35px;
+    left:70px;
+}
+
+.Home_decor img{
+    height: 127px;
+    width: 140px;
+    position: absolute;
+    bottom: -6px;
+    left: 135px;
+}
+
+.Home_decor a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: #FF4FA3;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.categories_section .Accessories{
+    height: 130px;
+    width: 275px;
+    background-color: transparent;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+     backdrop-filter: blur(3px);
+     border-radius:10px;
+}
+
+
+.Accessories .bag_icon{
+    height: 45px;
+    width: 45px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 13px;
+    left:15px;
+    border-radius: 50%;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    backdrop-filter: blur(3px);
+}
+
+.bag_icon i{
+    color: aliceblue;
+    font-size: 24px;
+    position: relative;
+    top: 10px;
+}
+
+.Accessories h3{
+    color: #ffffff;
+    position: absolute;
+    top: 13px;
+    left:70px;
+}
+
+.Accessories p{
+    color: aliceblue;
+    font-size: 13px;
+     font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    position: relative;
+    top: 35px;
+    left:70px;
+}
+
+.Accessories img{
+    height: 130px;
+    width: 160px;
+    position: absolute;
+    bottom: -6px;
+    left: 125px;
+}
+
+.Accessories a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 800;
+    color: #FF4FA3;
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+}
+
+.feature_product{
+   height: 250px;
+   background-color: transparent;
+
+}
+
+.feature_product .top{
+  height: 30px;
+  background-color: transparent;
+}
+.feature_product .top h3{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-weight: 800;
+    color: white;
+}
+
+.feature_product .top p{
+    font-size: 15px;
+    font-weight: 800;
+    color: #FF4FA3;
+    position: relative;
+    top: -15px;
+    left: 85%;
+}
+.contener{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    height:210 ;
+}
+
+.contener_css{
+    height: 200px;
+    width: 210px;
+    background-color: transparent;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    border-radius: 13px;
+    backdrop-filter: blur(3px);
+}
+
+.contener_img_css{
+    height: 120px;
+    width: 180px;
+    position: absolute;
+    top: -1px;
+    left: 10px;
+}
+
+.watch img{
+    height: 140px;
+    width: 220px;
+    position: absolute;
+    top: -1px;
+    right: 13px;
+}
+.contener_h3_css{
+    position: absolute;
+    top: 57%;
+    left: 15px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:aliceblue ;
+}
+
+.contener_p_css{
+    position: absolute;
+    top: 64%;
+    left: 15px;
+    color: #FF4FA3;
+}
+
+.contener_h_css{
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 24px;
+    left: 17px;
+    color: #faf4f7;
+}
+
+.shopping_cart_icon{
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 70%;
+}
+
+.shopping_cart_icon i{
+    height: 35px;
+    width: 35px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    backdrop-filter: blur(3px);
+    padding-top: 7px;
+}
+
+.testimonial{
+    height: 170px;
+    background-color: transparent;
+}
+
+.testimonial .top_part{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 40px;
+}
+
+.top_part h3{
+    color: white;
+}
+.top_part p{
+    color:#FF4FA3;
+}
+p span{
+    color: white;
+}
+
+.middle_part{
+    height: 130px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.customer{
+    height: 120px;
+    width: 30%;
+    background-color: transparent;
+    border:0.5px solid rgb(237, 234, 222,0.5);
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px #f78dbe;
+}
+
+.middle_part .image{
+    position: relative;
+    top: 16px;  
+    left: 25px;
+     border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-image: url("https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+/* .main_body .image img{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+} */
+
+.middle_part .customer b{
+    position: relative;
+    top: -50px;
+    left: 110px;
+    color: white;
+}
+
+.middle_part .customer p{
+    position: relative;
+    top: -45px;
+    left: 110px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'Mier A Demi';
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+footer{
+    height: 170px;
+    width: 100vw;
+    background-color: #071029;
+    margin-top: 10px;
+    position: relative;
+    left: -100px;
+}
+
+.upper{
+    display: flex;
+}
+
+.contact{
+    height:150px;
+    width: 27%;
+    background-color: transparent;
+    padding-left: 50px;
+}
+
+.contact i{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.contact a{
+    color: #FF4FA3;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+}
+
+.contact p{
+    font-size: 15px;
+    position: relative;
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    top: 15px;
+    left: 10px;
+    color: #d1ddd37c;
+}
+.contact img{
+    height: 40px;
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.customer_service{
+    height:150px;
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+.footer_headding{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:#ffffff;
+    position: relative;
+    top: 15px;
+}
+
+.footer_paragraph{
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #d1ddd37c;
+    position: relative;
+    top: 20px;
+}
+
+.newsletter{
+    height:150px;
+    width: 22%;
+    background-color: transparent;
+    padding-left: 50px;
+}
+.newsletter h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:#ffffff;
+    position: relative;
+    top: 15px;
+}
+
+.newsletter p{
+    font-family: 'Mier B Book';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    color: #d1ddd37c;
+    position: relative;
+    top: 20px;
+}
+
+.newsletter input{
+    color: white;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+    background-color: transparent;
+    padding-left: 10px;
+    border: 0.5px solid rgb(237, 234, 222,0.5);
+    border-radius: 5px;
+}
+
+.bellow{
+    height: 40px;
+    width: 100%vw;
+    background-color: #0D142D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bellow p{
+    color: #d1ddd37c;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+.bellow img{
+    padding-right: 140px;
+    scale: 1.2;
+}
